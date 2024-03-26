@@ -4,7 +4,7 @@ This web application "Currency Converter" is a simple web application tool that 
 
 
 ## Demo
-You can check my website [HERE](https://captainsakura.github.io/Currency-exchange/).
+Check how it works [HERE](https://captainsakura.github.io/Currency-exchange/).
 
 ## Description
 
