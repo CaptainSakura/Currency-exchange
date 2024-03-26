@@ -6,8 +6,6 @@ This web application "Currency Converter" is a simple web application tool that 
 ## Demo
 Check how it works [HERE](https://captainsakura.github.io/Currency-exchange/).
 
-## Description
-
 ## Technologies
 - HTML
 - CSS
