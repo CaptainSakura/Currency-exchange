@@ -3,7 +3,8 @@
 This web application "Currency Converter" is a simple web application tool that allows users to convert the value of *PLN (Polish Zloty) into 3 other curency: EUR (Euro), USD (United States Dollar) and CAD (Canadian Dollar)*.
 
 ## Preview
-<iframe src="https://giphy.com/embed/M3rC7CvuO6TY5VyvqF" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/M3rC7CvuO6TY5VyvqF">via GIPHY</a></p>
+![](https://github.com/CaptainSakura/Currency-exchange/assets/157750673/1eed912f-59c7-4a0b-8207-b2dd0190e02e)
+
 
 
 ## Demo
