@@ -5,7 +5,7 @@ This web application "Currency Converter" is a simple web application tool that 
 *This project was created as part of learning HTML, CSS, and JavaScript.*
 
 ## Preview
-![](https://github.com/CaptainSakura/Currency-exchange/assets/157750673/1eed912f-59c7-4a0b-8207-b2dd0190e02e)
+![](https://github.com/CaptainSakura/Currency-exchange/assets/157750673/354e3d79-bc39-49d1-94ba-00f6ae0c699a)
 
 ## Demo
 Check how it works [HERE](https://captainsakura.github.io/Currency-exchange/).
