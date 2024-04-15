@@ -14,6 +14,7 @@ Check how it works [HERE](https://captainsakura.github.io/Currency-exchange/).
 - HTML
 - CSS
 - JavaScript
+- BEM
 
 ## Features
 - User friendly interface.
