@@ -1,27 +1,37 @@
 {
+  const calculaterResult = (amount, currency) => {
+    const rateEUR = 4.4357;
+    const rateUSD = 4.1591;
+    const rateCAD = 3.0297;
+
+    switch (currency) {
+      case "EUR":
+        return amount / rateEUR;
+      case "USD":
+        return amount / rateUSD;
+      case "CAD":
+        return amount / rateCAD;
+    }
+  };
+
+  const updateResultText = (amount, result, currency) => {
+    const resultElement = document.querySelector(".js-result");
+    resultElement.innerHTML = `Wynik: = <strong>${result.toFixed(
+      2
+    )} ${currency} </strong>`;
+  };
+
   const onFormSubmit = (event) => {
     event.preventDefault();
 
     const amountElement = document.querySelector(".js-amount");
     const currencyElement = document.querySelector(".js-currency");
-    const resultElement = document.querySelector(".js-result");
 
-    const amount = amountElement.value;
-    const eur = amount * 0.2604;
-    const usd = amount * 0.2352;
-    const cad = amount * 0.1782;
+    const amount = +amountElement.value;
+    const currency = currencyElement.value;
 
-    switch (currencyElement.value) {
-      case "EUR":
-        resultElement.innerText = `Wynik: ${eur.toFixed(2)} €`;
-        break;
-      case "USD":
-        resultElement.innerText = `Wynik: ${usd.toFixed(2)} $`;
-        break;
-      case "CAD":
-        resultElement.innerText = `Wynik: ${cad.toFixed(2)} C$`;
-        break;
-    }
+    const result = calculaterResult(amount, currency);
+    updateResultText(amount, result, currency);
   };
 
   const init = () => {
