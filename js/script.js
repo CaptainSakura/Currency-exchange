@@ -16,6 +16,7 @@
 
   const updateResultText = (amount, result, currency) => {
     const resultElement = document.querySelector(".js-result");
+
     resultElement.innerHTML = `Wynik: = <strong>${result.toFixed(
       2
     )} ${currency} </strong>`;
